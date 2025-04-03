@@ -1,0 +1,17 @@
+body{
+    background-image: url('/pizzaImage.jpg'); /* Replace with actual image path */
+    background-size: cover; /* Covers entire div */
+    background-position: center; /* Centers image */
+    background-repeat: no-repeat; /* No repeating */
+    padding: 20px; /* Adds some spacing */
+    min-height: 100vh; /* Ensures full screen height */
+    
+}
+
+h1 {
+    text-align: center; /* Centers the heading */
+    font-size: 2rem; /* Adjust the font size as needed */
+    color: black; /* Dark text color */
+    margin-bottom: 20px; /* Space below the heading */
+    font-family: 'Arial', sans-serif; /* Adjust the font family to match the design */
+  }

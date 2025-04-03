@@ -1,0 +1,61 @@
+
+.size-input {
+    margin: 10px;
+    padding: 20px;
+    background-color: #eae7e7; /* Light background color */
+    border-radius: 10px; /* Smooth rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    max-width: 500px; /* Maximum width for the form */
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+  }
+  
+  .size-input form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .size-input fieldset {
+    border: none; /* Remove default border */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .size-input label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:#68390a; /* Dark gray color */
+    display: block;
+    text-align: center;
+  }
+  
+  .size-input select {
+    margin-left: 15px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 2px solid #ddd; /* Light border */
+    background-color: #fff;
+    transition: all 0.3s ease; /* Smooth transition */
+  }
+  
+  .size-input select:focus {
+    outline: none;
+    border-color: #4CAF50; /* Green border on focus */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Light green glow */
+  }
+  
+  .size-input option {
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  /* Optional: Styling for when the dropdown is empty or has no selection */
+  .size-input select option:first-child {
+    color: #bbb; /* Lighter color for the default "(select one)" option */
+  }
+  

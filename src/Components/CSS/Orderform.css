@@ -1,0 +1,71 @@
+.orderform-body {
+    width: 100%;
+    background-color: #E0D6B4;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 10px;
+    color:#68390a;
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    text-align: center; /* Centers the heading */
+    font-size: 2rem; /* Adjust the font size as needed */
+    color: #68390a; /* Dark text color */
+    margin-bottom: 20px; /* Space below the heading */
+    font-family: 'Arial', sans-serif; /* Adjust the font family to match the design */
+  }
+
+/* Button Container */
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px; /* Adds space between buttons */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* General Button Styles */
+  button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 150px; /* Keeps buttons a consistent size */
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  /* Button Hover Effects */
+  button:hover {
+    background-color: #4CAF50;
+    color: #fff;
+    border-color: #4CAF50;
+  }
+  
+  /* Specific Styles for Add Order Button */
+  .btn-add {
+    background-color: #f0ad4e; /* Light orange */
+    border-color: #f0ad4e;
+  }
+  
+  .btn-add:hover {
+    background-color: #8d5609; /* Darker orange */
+  }
+  
+  /* Specific Styles for Next Customer Button */
+  .btn-next {
+    background-color: #ea470c; /* Light blue */
+    border-color: #ea470c;
+  }
+  
+  .btn-next:hover {
+    background-color: #88260e; /* Darker blue */
+  }
+  

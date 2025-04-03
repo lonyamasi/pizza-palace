@@ -1,0 +1,72 @@
+.toppings {
+    margin: 20px;
+    padding: 20px;
+    background-color: #eae7e7; /* Light background */
+    border-radius: 10px; /* Smooth rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    max-width: 500px; /* Adjust max-width */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .toppings form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+  }
+  
+  .toppings fieldset {
+    border: none; /* Remove default fieldset border */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .toppings legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:#68390a;
+    margin-bottom: 10px;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .toppings label {
+    font-size: 1rem;
+    color: #68390a;
+    display: block;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .toppings input[type="checkbox"] {
+    margin-right: 10px; /* Space between checkbox and label */
+    cursor: pointer;
+  }
+  
+  /* Styling for the checkboxes */
+  .toppings .basictoppings-input div,
+  .toppings .deluxetoppings-input div {
+    margin-bottom: 10px;
+  }
+  
+  .toppings input[type="checkbox"]:checked {
+    accent-color: #4CAF50; /* Green accent for checked boxes */
+  }
+  
+  .toppings input[type="checkbox"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Green glow on focus */
+  }
+  
+  .toppings .deluxetoppings-input {
+    margin-top: 20px; /* Adds some spacing before deluxe toppings */
+    padding-left: 20px;
+  }
+  
+  .toppings .basictoppings-input,
+  .toppings .deluxetoppings-input {
+    padding-left: 20px; /* Indentation for items */
+  }
+  
