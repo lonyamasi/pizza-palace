@@ -26,9 +26,9 @@ const Toppings = ({ setToppings, toppings }) => { //Receiving setTopping as a pr
             </label>
           </div>
           <div>
-            <label htmlFor="peperroni">
-              <input id="peperroni" type="checkbox" value="Peperroni" checked={toppings.includes("Peperroni")} onChange={handleToppingChange} />
-              Peperroni
+            <label htmlFor="pepperoni">
+              <input id="pepperoni" type="checkbox" value="Pepperoni" checked={toppings.includes("Pepperoni")} onChange={handleToppingChange} />
+              Pepperoni
             </label>
           </div>
           <div>

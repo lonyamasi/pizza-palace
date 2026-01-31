@@ -1,0 +1,25 @@
+.receipt-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  font-family: sans-serif;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+.receipt-item {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.receipt-summary {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+}
+
+.receipt-actions {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}

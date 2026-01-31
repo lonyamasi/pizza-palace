@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pizza Palace Order Test</title>
+</head>
+<body>
+  <h1>Test Pizza Order</h1>
+  <button onclick="submitOrder()">Submit Order</button>
+
+  <pre id="output"></pre>
+
+  <script>
+    function submitOrder() {
+  fetch('http://localhost:5000/api/orders', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify([
+      { size: 'Large', toppings: ['Pepperoni', 'Cheese'] },
+      { size: 'Medium', toppings: ['Pepperoni','Ham', 'Cheese'] },
+      { size: 'Small', toppings: ['Pepperoni', 'Cheese'] }
+    ])
+  })
+  .then(async res => {
+    if (!res.ok) {
+      const text = await res.text(); // fallback for non-JSON error
+      throw new Error(text);
+    }
+    return res.json();
+  })
+  .then(data => {
+    document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+  })
+  .catch(err => {
+    document.getElementById('output').textContent = 'Error: ' + err.message;
+  });
+}
+  </script>
+</body>
+</html>
