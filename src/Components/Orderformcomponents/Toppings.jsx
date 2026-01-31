@@ -1,6 +1,6 @@
 import '../CSS/toppings.css';
 
-const Toppings = ({ setToppings, toppings }) => { //Receiving setTopping as a prop
+const Toppings = ({ setToppings, toppings }) => { 
 
     const handleToppingChange = (e) => {
         const {value,checked} = e.target;
